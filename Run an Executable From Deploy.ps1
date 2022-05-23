@@ -4,4 +4,4 @@ $localPath = $($args[1])
 
 Copy-Item $networkPath $localPath
 
-Start-Process -FilePath $localPath -Verb RunAFs
+Start-Process -FilePath $localPath -Verb RunAs
